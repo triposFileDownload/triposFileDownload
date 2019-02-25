@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<TMS>
+   <CallScheduling>
+	   <Item name="CALLENABLED" value="1" /> <!-- 0 for call scheduling disabled 1 for call schdeduling enabled-->
+       <Item name="CALLTYPE" value="PERIODIC" />
+       <Item name="LASTCALL" value="0" />
+       <Item name="CALLDELAY" value="1" />
+	   <Item name="TIME" value="030000" />                      
+       <Item name="DATE" value="022225" />
+   </CallScheduling>
+   <TMSServer>
+       <Item name="TMSURL" value="estate1.ROAMDATA.COM" />
+       <Item name="TMSIPADDRESS" value="" />
+       <Item name="TMSIPPORT" value="2600" />
+       <Item name="TMSSSLMODE" value="0" /> 	
+   </TMSServer>
+   <Configuration>
+       <PERIODIC>                                                     
+           <Item name="FREQUENCY" value="DAILY" />
+       </PERIODIC>       
+   </Configuration>
+</TMS>
